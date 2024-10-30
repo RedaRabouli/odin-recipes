@@ -4,9 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recipes</title>
+    <style>
+      .centered-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .bullet-points {
+        text-align: left;
+      }
+    </style>
   </head>
   <body>
-    <h1>Odin Recipes</h1>
-    <a href="recipes/moroccan-tanjia.html">Moroccan Tanjia</a>
+    <h1 style="text-align: center">Odin Recipes</h1>
+    <div class="centered-content">
+      <img
+        src="Assets/simoha.jpg"
+        alt=""
+        width="600"
+        height="300"
+        style="display: block; margin: 0 auto"
+      />
+      <div class="bullet-points">
+        <ul>
+          <li>
+            <a href="recipes/moroccan-tanjia.html">Moroccan Tanjia</a>
+          </li>
+          <li>
+            <a href="recipes/zaalouk.html">Zaalouk</a>
+          </li>
+          <li>
+            <a href="recipes/briwat.html">Briwat</a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
